@@ -33,11 +33,11 @@
     }
 
     .header__search {
-        margin-left: 0; 
-        margin-right: 0; 
+        margin-left: 0;
+        margin-right: 0;
     }
-    
-    .body__shop-product { 
+
+    .body__shop-product {
         margin-left: 0;
         margin-right: 0;
     }
@@ -63,5 +63,10 @@
 
     .footer__group {
         margin-top: 10px;
+    }
+
+    .product__hover {
+        top: 30%;
+        left: 30%;
     }
 }
