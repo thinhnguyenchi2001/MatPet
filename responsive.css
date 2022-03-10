@@ -43,11 +43,12 @@
     }
 
     .body__product-list {
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .body__product-item {
-        width: 100%;
+        width: calc(100% / 2 - 2%);
         margin-top: 30px;
     }
 
@@ -62,11 +63,20 @@
     }
 
     .footer__group {
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
     .product__hover {
-        top: 30%;
-        left: 30%;
+        top: 20%;
+        left: 20%;
+    }
+
+    .product__hover-button {
+        padding: 10px 10px;
+    }
+
+    .product__hover-button {
+        display: block;
+        margin: 0 auto;
     }
 }
