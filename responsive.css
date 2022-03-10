@@ -60,4 +60,8 @@
     .footer__group {
         width: 100%;
     }
+
+    .footer__group {
+        margin-top: 10px;
+    }
 }
