@@ -1,5 +1,9 @@
 @media only screen and (max-width: 600px) {
-    html {
+    .header {
+        margin: 0 20px;
+    }
+
+    .body__shop {
         margin: 0 20px;
     }
 
@@ -31,26 +35,29 @@
     .header__search {
         margin-left: 0; 
         margin-right: 0; 
-        display: flex;
-        justify-content: end;
-        align-items: center;
     }
     
-    .body__shop-product {
+    .body__shop-product { 
         margin-left: 0;
         margin-right: 0;
     }
 
     .body__product-list {
         display: block;
-        list-style: none;
-        justify-content: space-between;
-        margin-bottom: 50px;
     }
 
     .body__product-item {
         width: 100%;
-        position: relative;
-        overflow: hidden;
+        margin-top: 30px;
+    }
+
+    .footer {
+        display: block;
+        padding: 0;
+        padding: 20px 20px;
+    }
+
+    .footer__group {
+        width: 100%;
     }
 }
